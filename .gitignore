@@ -1,0 +1,10 @@
+*.iml
+.idea
+/dist
+/node_modules
+.DS_Store
+.project
+.settings
+npm-debug.log
+
+

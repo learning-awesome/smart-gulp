@@ -1,0 +1,478 @@
+
+.center {
+    font-size: 12px;
+    color: #78858D;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-page {
+
+}
+
+.simplebox {
+    margin-bottom: 14px;
+}
+
+.simplebox .titleh {
+    background: #fff url(../image/gra-linear.png) repeat-x bottom;
+    color: #133D59;
+    padding: 14px 14px;
+    border: 1px solid #C1D6E6;
+    border-bottom: none;
+    font-size: 14px;
+}
+
+.center-content {
+    background: #fff url(../image/dto-gray.png) repeat-x top;
+    border-top: 1px solid #92B8D3;
+    border: 1px solid #C1D6E6;
+    padding: 14px;
+}
+
+.topbutton {
+    border: 1px solid #92B8D3;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+    background: #fff url(../image/gra-linear.png) repeat-x bottom;
+}
+
+.topbutton a {
+    display: block;
+    padding: 13px;
+    font-weight: bold;
+}
+
+.topbutton span {
+    background: url(../image/page-top.png) no-repeat left;
+    padding: 0px 20px;
+}
+
+.topbutton a:hover {
+    color: #17486C;
+}
+
+/*==============================================================================*/
+/*	2.	TYPOGRAPHY
+/*==============================================================================*/
+.center h1 {
+    font-size: 21px;
+    color: #2C6DA3;
+    padding: 7px 0 13px 0;
+}
+
+.center h2 {
+    font-size: 19px;
+    color: #2C6DA3;
+    padding: 7px 0 13px 0;
+}
+
+.center h3 {
+    font-size: 17px;
+    color: #2C6DA3;
+    padding: 7px 0 13px 0;
+}
+
+.center h4 {
+    font-size: 15px;
+    color: #2C6DA3;
+    padding: 7px 0 13px 0;
+}
+
+.center h5 {
+    font-size: 13px;
+    color: #2C6DA3;
+    padding: 7px 0 13px 0;
+}
+
+.center blockquote {
+    background: #FFF9DB;
+    border: 1px solid #F3D97E;
+    border-left: 7px solid #F3D97F;
+    font-size: 12px;
+    color: #988833;
+    line-height: 17px;
+    padding: 10px;
+    margin: 13px 0px;
+    border-radius: 3px;
+}
+
+.center .list-plus {
+    color: #64727C;
+    padding: 5px 10px;
+}
+
+.center .list-plus li {
+    display: block;
+    background: url(../image/icons/mini/plus.gif) no-repeat left 7px;
+    padding-left: 13px;
+    line-height: 17px;
+    padding-top: 2px;
+    padding-bottom: 8px;
+}
+
+.center .list-arrow {
+    color: #64727C;
+    padding: 5px 10px;
+}
+
+.center .list-arrow li {
+    display: block;
+    background: url(../image/icons/mini/arrow.png) no-repeat left 7px;
+    padding-left: 13px;
+    line-height: 17px;
+    padding-top: 2px;
+    padding-bottom: 8px;
+}
+
+/*==============================================================================*/
+/*	4.	PROFILE BOX
+/*==============================================================================*/
+.center .profilebox {
+    background: #fff url(../image/gra-linear.png) repeat-x bottom;
+    border: 1px solid #C1D6E6;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 12px 10px;
+    color: #143D5B;
+    position: relative;
+    line-height: 19px;
+    margin-bottom: 14px;
+}
+
+.center .profilebox .avatar {
+    float: left;
+    margin-right: 8px;
+}
+
+.center .profilebox .logout {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../image/close-icon.png) no-repeat center;
+    text-indent: -9999px;
+    right: 8px;
+    top: 8px;
+}
+
+.center .profilebox .logout:hover {
+    background: url(../image/close-icon2.png) no-repeat center;
+}
+
+/*==============================================================================*/
+/*	7.	FORM ELEMENTS
+/*==============================================================================*/
+.center label {
+    margin-right: 7px;
+}
+
+.center input, select, textarea {
+    border: 1px solid #D1D3D3;
+    border-top: 1px solid #A5A6A6;
+    color: #A5A5A5;
+    font: 12px Arial, Helvetica, sans-serif;
+    background: #fff url(../image/input-bg.png) repeat-x top;
+    border-radius: 3px;
+    padding: 10px;
+    margin-right: 7px;
+}
+
+.center .form-line {
+    padding-bottom: 19px;
+}
+
+.center .st-label {
+    /*display:block;*/
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.center .submit-button {
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    border: 1px solid #17486C;
+    font-weight: bold;
+    text-shadow: 0px -1px #1C5580;
+    padding: 8px;
+    border-radius: 3px;
+    background: #246597 url(../image/blue-button.png) repeat-x top;
+}
+
+.center .submit-button:hover {
+    border: 1px solid #113753;
+}
+
+.center .submit-button:active {
+    box-shadow: inset 0 0 0.5em #17486C;
+}
+
+.center .reset-button {
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #17476C;
+    border: 1px solid #A3BDD3;
+    font-weight: bold;
+    text-shadow: 0px -1px #fff;
+    padding: 8px;
+    border-radius: 3px;
+    background: #fff url(../image/reset-button.png) repeat-x bottom;
+}
+
+.center .reset-button:hover {
+    border: 1px solid #88AAC6;
+}
+
+.center .reset-button:active {
+    box-shadow: inset 0 0 0.5em #A3BDD3;
+}
+
+/*==============================================================================*/
+/*	8.	STATISTICS
+/*==============================================================================*/
+.center .statistics {
+    padding: 0;
+}
+
+.center .statistics li {
+    border-bottom: 1px solid #E3EBF3;
+    padding: 12px 14px;
+    display: block;
+    position: relative;
+}
+
+.center .statistics li p {
+    display: block;
+    position: absolute;
+    text-align: right;
+    right: 14px;
+    top: 12px;
+}
+
+.center .statistics .green {
+    color: #308359;
+}
+
+.center .statistics .blue {
+    color: #4B789A;
+}
+
+.center .statistics .red {
+    color: #CD6557;
+}
+
+/*==============================================================================*/
+/*	9.	GALLERY
+/*==============================================================================*/
+.center .get-photo {
+    border-bottom: 1px solid #E3EBF3;
+    padding: 10px 0px;
+}
+
+.center .get-photo img {
+    float: left;
+    width: 44px;
+    height: 33px;
+    margin-right: 8px;
+}
+
+/*==============================================================================*/
+/*	10.	LIST MENU
+/*==============================================================================*/
+.center .list-menu {
+    border-top: 1px solid #C1D6E6;
+    padding-bottom: 14px;
+    font-size: 12px;
+}
+
+.center .list-menu li {
+    display: block;
+    border: 1px solid #C1D6E6;
+    border-top: none;
+    background: #fff;
+}
+
+.center .list-menu li a {
+    display: block;
+    position: relative;
+    padding: 14px;
+    color: #154364;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.center .list-menu li a b {
+    background: url(../image/arrow-ts.png) no-repeat right;
+    padding-right: 19px;
+    display: block;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    line-height: 23px;
+}
+
+.center .list-menu li a:hover {
+    background: #4088C0 url(../image/menu-hover.png) repeat-x bottom;
+    color: #4088C0;
+}
+
+.center .list-menu li a:hover b {
+    background: url(../image/arrow-ts-hover.png) no-repeat right;
+    color: #fff;
+}
+
+.center .list-menu li a span {
+    font-weight: bold;
+    color: #fff;
+    background: #3277AB;
+    padding: 3px 5px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.center .list-menu li a:hover span {
+    background: #EAF0F6;
+    color: #3277AB;
+}
+
+.center .list-menu a .red {
+    background: #E76463;
+}
+
+/*==============================================================================*/
+/*	11.	ERROR PAGE
+/*==============================================================================*/
+.center .error-page {
+    text-align: center;
+    color: #78858C;
+}
+
+.center .error-page h3 {
+    color: #E76463;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px 0px;
+}
+
+.center .error-page p {
+    border-top: 1px solid #E3EBF3;
+    border-bottom: 1px solid #E3EBF3;
+    padding: 10px 0px;
+}
+
+.center .error-page .buttons {
+    padding: 20px 0px;
+}
+
+/*==============================================================================*/
+/*	12.	ALERT BOXES
+/*==============================================================================*/
+.center .albox {
+    font-size: 12px;
+    line-height: 17px;
+    box-shadow: 0px 1px 0px 0px #F7F7F7;
+    position: relative;
+    margin: 15px 0px;
+    padding: 14px 42px;
+    border-radius: 2px;
+}
+
+.center .albox .close {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    right: 0;
+    top: 0;
+    background: url(../image/icons/mini/close-opacity-21.png) no-repeat center;
+}
+
+.center .albox .close:hover {
+    background: url(../image/icons/mini/close-opacity-42.png) no-repeat center;
+}
+
+.center .albox .icon {
+    position: absolute;
+    left: 14px;
+    top: 14px;
+}
+
+.center .warningbox {
+    background: #FFF8D8 url(../image/icons/error/error.png) no-repeat 14px 14px;
+    border: 1px solid #F3D97E;
+    color: #A68510;
+}
+
+.center .succesbox {
+    background: #EBF9E2 url(../image/icons/error/accept.png) no-repeat 14px 14px;
+    border: 1px solid #BEE4A5;
+    color: #658C2C;
+}
+
+.center .informationbox {
+    background: #E9F3F8 url(../image/icons/error/help.png) no-repeat 14px 14px;
+    border: 1px solid #BBD7E4;
+    color: #3876C6;
+}
+
+.center .errorbox {
+    background: #F8E9E9 url(../image/icons/error/cross.png) no-repeat 14px 14px;
+    border: 1px solid #E4BBBC;
+    color: #BF2C11;
+}
+
+/*==============================================================================*/
+/*	13.	TABLE
+/*==============================================================================*/
+.center .tabledata {
+    width: 100%;
+    border: 1px solid #C1D6E6;
+    background: #fff;
+}
+
+.center .tabledata th, .tabledata td {
+    border: 1px solid #C1D6E6;
+    padding: 5px;
+}
+
+.center .tabledata tbody {
+    border: 1px solid #C1D6E6;
+}
+
+.center .tabledata thead {
+    background: #fff url(../image/gra-linear-with-dot.png) repeat-x bottom;
+    border-bottom: 1px solid #C1D6E6;
+    text-align: left;
+}
+
+/*==============================================================================*/
+/*	14.	SEARCH BOX
+/*==============================================================================*/
+.center .searchbox {
+    position: relative;
+    background: #fff url(../image/gra-linear-with-dot.png) repeat-x bottom;
+    border-bottom: 1px solid #C1D6E6;
+    padding: 14px;
+    display: none;
+}
+
+.center .searchbox form {
+}
+
+.center .searchbox .txtbox {
+    font: bold 14px Arial, Helvetica, sans-serif;
+    width: 85%;
+    background: #fff url(../image/search-blue.png) no-repeat left;
+    padding-left: 30px;
+}
+
+.center .searchbox .button {
+    position: absolute;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    background: red;
+    background-image: none;
+    top: 10px;
+    right: 14px;
+}
+

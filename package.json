@@ -1,0 +1,36 @@
+{
+  "name": "h5-gulp-framework",
+  "version": "1.0.0",
+  "description": "h5-gulp-framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hubcarl/h5-grunt-framework.git"
+  },
+  "author": "sky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hubcarl/h5-grunt-framework/issues"
+  },
+  "homepage": "https://github.com/hubcarl/h5-grunt-framework",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-cssshrink": "^0.1.4",
+    "gulp-qn": "^0.1.0",
+    "gulp-rev": "^3.0.1",
+    "gulp-rev-collector": "^0.1.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-webpack": "^1.3.2",
+    "run-sequence": "^1.0.2",
+    "gulp-useref": "~1.2.0",
+    "gulp-if": "~1.2.5",
+    "gulp-minify-css": "~1.2.0",
+    "gulp-file-include": "~0.13.5",
+    "gulp-inline-source": "~2.0.0",
+    "gulp-clean": "~0.3.1"
+  }
+}
