@@ -10,7 +10,7 @@
     if(element){
       var data={};
       data[key]=value;
-      var html = template.render(id+"Template", data);
+      var html = template.render(key+"Template", data);
       element.innerHTML = html;
     }
   }

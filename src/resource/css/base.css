@@ -1,0 +1,98 @@
+div,
+body,
+html,
+ul,
+ol,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    line-height: 1;
+    font-size: 16px;
+    color: #313131;
+    font-family: 'Droid Sans Fallback';
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding-bottom: 6px;
+}
+
+.body {
+    background: #E3E3E3;
+}
+
+a {
+    text-decoration: none;
+    font-size: 100%;
+    color: #333;
+}
+
+a:visited {
+    color: #222;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+input,
+a,
+button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:focus, input:focus {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+input {
+    outline: none;
+}
+
+.space {
+    padding: 0 3px;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+    color: #BFBFBF;
+}
+
+.hot {
+    color: red;
+}
+
+.em,
+.item-game .info .em {
+    color: #FA9713 !important;
+}
+
+*:focus {
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+.press {
+    background-color: #F6F6F6;
+}

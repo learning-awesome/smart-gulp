@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="../../../resource/css/global-0998f0946b.css">
+</head>
+<body style="background-color: #F6F6F6;">
+
+<div class="panel" style="display: none">
+    <div class="hd"><h2>开服游戏</h2><div class="more"><a href="#">更多</a></div></div>
+    <div class="item-game">
+        <div class="pic"><img style="display: none" src="images/temp/pics.png" width="60" height="60" alt="跑的很快的游戏"></div>
+        <div class="con">
+            <div class="name">地铁跑酷地铁</div>
+            <div class="info">休闲益智 <span class="space">|</span> 48.7M</div>
+            <div class="info">
+                <p class="start-system"><span class="good"></span><span class="good"></span><span class="good"></span><span class="soso"></span><span></span></p>(4.0)
+            </div>
+        </div>
+        <div class="btns"><span class="btn-primary-green" onclick="init()">下载</span></div>
+    </div>
+</div>
+
+
+<script id="dataTemplate" type="text/html">
+    <div class="panel" style="margin-top: 16px">
+        <div class="hd"><h2>{{data.title}}</h2><div class="more"><a href="#"></a></div></div>
+        {{each data.list}}
+        <div class="item-game">
+            <div class="pic"><img src="{{$value.gameIcon}}" width="60" height="60" alt=""></div>
+            <div class="con">
+                <div class="name">{{$value.longName}}</div>
+                <div class="info">{{$value.categoryName}}<span class="space">|</span>{{$value.hitCount}}人玩</div>
+                <div class="info">
+                    <p class="start-system">
+                        <span class="good"></span>
+                        <span class="good"></span>
+                        <span class="good"></span>
+                        <span class="soso"></span>
+                        <span></span>
+                    </p>({{$value.score}})
+                </div>
+            </div>
+            <div class="btns" onclick="Home.openWindow('{{$value.gameId}}','{{$value.shortName}}','{{$value.gameUrl}}')"><span class="btn-primary-green">玩一玩</span></div>
+        </div>
+        {{/each}}
+    </div>
+</script>
+
+<div id="recommendList"></div>
+<div id="newList"></div>
+<div id="hotList"></div>
+
+
+<script src="../../../framework/common/common-dcec9a7b4d.js"></script>
+<script src="../../../framework/artTemplate/art-9e775ef33e.js" ></script>
+<script src="../../../framework/bridge/bridge-eca40e25d8.js" ></script>
+<script>!function(t){var i={domain:"http://999game.sinaapp.com/api/",getList:function(t,i,e,n,o,a){SmartNativeAPI.httpPost(this.domain+"list.php",{action:"list",freeId:i,i:e,p:n,o:o},function(t){console.log(">>>getList response:"+JSON.stringify(t)),a(t)})},init:function(){i.getList(0,101,1,5,1,function(t){var i={title:"编辑推荐",list:JSON.parse(t)};View.render("recommendList","data",i)}),i.getList(0,0,1,5,1,function(t){var i={title:"最新游戏",list:JSON.parse(t)};View.render("newList","data",i)}),i.getList(0,0,1,5,2,function(t){var i={title:"热门游戏",list:JSON.parse(t)};View.render("hotList","data",i)})},openWindow:function(t,i,e){SmartNativeAPI.openWindow(i,e,{gameId:t,gameName:i},"common")}};i.init(),t.Home=i}(window);</script>
+</body>
+</html>

@@ -1,3 +1,11 @@
 {
-  "resource/images/home.png": "resource/images/home-13c93d2376.png"
+  "images/bg_detail.png": "images/bg_detail-13a9a16768.png",
+  "images/border-l.png": "images/border-l-84f78b6967.png",
+  "images/border-r.png": "images/border-r-58fbfdbac7.png",
+  "images/border-t.png": "images/border-t-c78b0d3ddc.png",
+  "images/border-x.png": "images/border-x-b8bcb7c2c3.png",
+  "images/border-y.png": "images/border-y-d0a6852d3a.png",
+  "images/border.png": "images/border-b67e8c0fb2.png",
+  "images/default_pic.png": "images/default_pic-0c7fbb2805.png",
+  "images/title-x.png": "images/title-x-3d52fff8f4.png"
 }
